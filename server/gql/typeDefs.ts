@@ -13,8 +13,8 @@ export const typeDefs = gql`
   type Profile {
     id: Int!
     bio: String
-    user User!
-    userId Int!
+    user: User!
+    userId: Int!
   }
 
   type Post {
