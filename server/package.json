@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "@prisma/client": "^3.14.0",
+    "apollo": "^2.34.0",
+    "apollo-server-koa": "^3.7.0",
+    "koa": "^2.13.4",
+    "prisma": "^3.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "ts-node": "^10.8.0"
+  }
+}
