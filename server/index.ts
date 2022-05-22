@@ -3,7 +3,7 @@ import { ApolloServerPluginDrainHttpServer } from 'apollo-server-core';
 import Koa from 'koa';
 import cors from '@koa/cors';
 import http from 'http';
-import { resolvers } from './gql/resolvers';
+import { resolvers } from './gql/resolvers/index';
 import { typeDefs } from './gql/typeDefs';
 
 (async function (typeDefs: any, resolvers: any) {
